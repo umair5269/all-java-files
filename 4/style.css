@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+main{
+    flex: 1 0 auto;
+}
+.border{
+    border-color: #1d3557 !important;
+}
+body header nav.navbar{
+    background-color: #1d3557 !important;
+}
+body{
+    background-color: #f1faee;
+}
+
+body main .Originalstringbox{
+    background-color: #1d3557;
+    color: #f1faee;
+}
+.input-group{
+    height: 50px;
+}
+.Originalstringbox{
+    height: 150px;
+}
+.input{
+    height: 150px;
+}
+
+
+.buttons{
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 260px;
+    
+}
+
+.button{
+    width: 270px;
+    margin-top: 5px;
+    
+}
+.output{
+    min-height: 260px;
+
+}
