@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- bootstrap 5.3.3 -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+
+     <!-- custom css -->
+     <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body class="bg-warning-subtle text-center">
+    <header>
+
+    </header>
+    <main>
+       <div>
+        <h1>Calculator by Umair</h1> <br><br>
+       </div>
+        <div class="container bg-dark border border-3 border-dark">
+            <div class="row">
+                <div class="col border border-dark px-0">
+                    <div class="output" id="output"></div>
+                </div>
+            </div>
+            <div class="row">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td colspan="2">
+                                <button id="clear" onclick=" clearInput()">C</button>
+                            </td>
+                            <td>
+                                <button onclick="addvalue('/')">/</button>
+                            </td>
+                            <td>
+                                <button onclick="addvalue('*')">*</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button onclick="addvalue('7')">7</button>
+                            </td>
+                            <td>
+                                <button onclick="addvalue('8')">8</button>
+                            </td>
+                            <td>
+                                <button onclick="addvalue('9')">9</button>
+                            </td>
+                            <td>
+                                <button onclick="addvalue('-')">-</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button onclick="addvalue('4')">4</button>
+                            </td>
+                            <td>
+                                <button onclick="addvalue('5')">5</button>
+                            </td>
+                            <td>
+                                <button onclick="addvalue('6')">6</button>
+                            </td>
+                            <td rowspan="2">
+                                <button id="plus" onclick="addvalue('+')">+</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button onclick="addvalue('1')">1</button>
+                            </td>
+                            <td>
+                                <button onclick="addvalue('2')">2</button>
+                            </td>
+                            <td>
+                                <button onclick="addvalue('3')">3</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button onclick="addvalue('0')">0</button>
+                            </td>
+                            <td>
+                                <button onclick="addvalue('00')">00</button>
+                            </td>
+                            <td>
+                                <button onclick="addvalue('.')">.</button>
+                            </td>
+                            <td>
+                                <button id="equal" onclick="calculate()">=</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+       
+    </main>
+    <footer>
+
+    </footer>
+   
+
+     <!-- bootstrap 5.3.3 -->
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"></script>
+
+     <!-- custom javascript -->
+ 
+     <script src="script.js"></script>
+    
+    
+</body>
+</html>
