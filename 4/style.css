@@ -39,7 +39,7 @@ body main .Originalstringbox{
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    height: 260px;
+    min-height: 260px;
     
 }
 
